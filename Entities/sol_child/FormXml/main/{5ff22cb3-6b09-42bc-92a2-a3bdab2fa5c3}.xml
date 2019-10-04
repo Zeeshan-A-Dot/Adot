@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5ff22cb3-6b09-42bc-92a2-a3bdab2fa5c3}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d6bd73ae-75f7-4ff8-af17-8d70616f9b4f}" IsUserDefined="1" name="{d6bd73ae-75f7-4ff8-af17-8d70616f9b4f}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a485b6ae-652c-4c15-bccc-c7b77d95b3ba}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dd315242-4e35-4c9c-b418-1c01b8bba6cf}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="sol_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sol_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{943ae85a-5cfb-4325-b7f3-dcf191ef2047}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{d9454c73-2ec4-4d49-3321-51259021aa70}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11b9c69e-e6c4-5ec4-4269-606b70275371}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Currency (Base)" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_currency_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="sol_c_currency_base" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4a16b75-b994-d88a-d4d8-79249c194624}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1e51921-9a19-7892-515b-ada892a10049}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created By (Delegate)" languagecode="1033" />
+                        </labels>
+                        <control id="createdonbehalfby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdonbehalfby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76244218-0d5a-e0c1-3733-07a7dbc4266e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{839e5bb8-78c5-961a-3469-3aa29b78e52c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a140e0b8-ac48-6103-a677-98698c437c21}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Exchange Rate" languagecode="1033" />
+                        </labels>
+                        <control id="exchangerate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="exchangerate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d682ede1-179d-c5d1-a79a-553b20de9b55}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c303e62-60c9-a243-51d2-96831b85a943}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified By (Delegate)" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedonbehalfby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedonbehalfby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5103939b-ce11-a192-cc20-ea99a4c84072}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{171a5ce1-bc40-3586-68e9-d9c2bc1ee6da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{859cbc18-8159-d118-a9ce-b2681a064e69}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="{d6bd73ae-75f7-4ff8-af17-8d70616f9b4f}_section_2" showlabel="false" showbar="false" locklevel="0" id="{e774944e-25c2-9c67-c881-d60592305d00}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d5e8c20e-2974-ee6e-386c-b99737458dab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Single_Line" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_single_line" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sol_c_single_line" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{821dd461-34a6-75d5-d965-48469add69a7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Text_Area" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_text_area" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sol_c_text_area" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb238233-648d-0603-5947-2a52981de2b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_WholeNumber" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_wholenumber" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="sol_c_wholenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed91c922-5a46-045b-6933-2399d4849ed8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Float" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_float" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="sol_c_float" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed2c32b4-3e42-1dc6-4180-0590cc0eb800}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Decimal" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_decimal" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="sol_c_decimal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{861315a6-4960-b865-40c6-9c14e31a52e3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Date" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="sol_c_date" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{924a7478-d886-77ae-0570-5de467cb5129}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Currency" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_currency" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="sol_c_currency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{66e46449-1280-469a-18cb-2c3544d22039}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_YN" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_yn" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="sol_c_yn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{962360ae-3c9d-67d4-eca5-540c0badbd78}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_City" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_option_set" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sol_c_option_set" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{707b34eb-1534-beb2-9ed8-e726458eda38}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Multi_Select" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_multi_select" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="sol_c_multi_select" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{7d558466-0360-ce1a-226b-4c045726dad7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e22ccede-dd5c-668c-d55a-b4c99cc5e647}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="C_Lookup" languagecode="1033" />
+                        </labels>
+                        <control id="sol_c_lookup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="sol_c_lookup" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c758d74-d562-41d4-e89a-4cb7367e7ee9}" showlabel="true" rowspan="15" auto="false" colspan="1">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_sol_child" />
+  <EntityRelationship Name="business_unit_sol_parent" />
+  <EntityRelationship Name="lk_sol_child_createdby" />
+  <EntityRelationship Name="lk_sol_child_modifiedby" />
+  <EntityRelationship Name="lk_sol_parent_createdby" />
+  <EntityRelationship Name="lk_sol_parent_modifiedby" />
+  <EntityRelationship Name="owner_sol_child" />
+  <EntityRelationship Name="owner_sol_parent" />
+  <EntityRelationship Name="sol_sol_parent_sol_child_C_" />
+  <EntityRelationship Name="team_sol_child" />
+  <EntityRelationship Name="team_sol_parent" />
+  <EntityRelationship Name="TransactionCurrency_sol_child" />
+  <EntityRelationship Name="TransactionCurrency_sol_parent" />
+  <EntityRelationship Name="user_sol_child" />
+  <EntityRelationship Name="user_sol_parent" />
+</EntityRelationships>

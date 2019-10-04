@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>sol_parent</EntitySource>
+    <EntityTarget>sol_child</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>modifiedon</AttributeSource>
+        <AttributeTarget>sol_c_date</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>sol_p_option_set</AttributeSource>
+        <AttributeTarget>sol_c_option_set</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>
